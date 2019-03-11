@@ -49,8 +49,8 @@ while (strikes < 3 && secret.indexOf("_") >= 0) {
 // them on a win, or tell them they have lost and show
 // the secret word.
 if (strikes === 3) {
-  alert("Sorry, please play again!");
+  alert("Sorry, please try again!");
 } else {
-  alert("Congratulations on your win!");
+  alert("Congratulations !");
 }
 alert("The secret word was " + word);
